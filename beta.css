@@ -290,3 +290,10 @@ table {
     width:10vw;
     display:block;
 }
+
+#blackgroundtlnatcgrad {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    background-image: linear-gradient(black, #370040);
+}
