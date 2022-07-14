@@ -261,6 +261,14 @@ table {
     margin:auto;
 }
 
+#iconlarge {
+    width:50%;
+}
+
+#iconsmaller {
+    width:80%;
+}
+
 @media (max-width:900px) {
     #pinch {
         font-size:12px;
@@ -268,6 +276,14 @@ table {
 
     #footerformat {
         font-size:8px;
+    }
+
+    #iconlarge {
+        width:90%
+    }
+
+    #iconsmaller {
+        width:90%
     }
 }
 
@@ -297,3 +313,4 @@ table {
     background-color: black;
     background-image: linear-gradient(black, #370040);
 }
+
