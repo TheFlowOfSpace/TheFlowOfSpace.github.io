@@ -314,3 +314,13 @@ table {
     background-image: linear-gradient(black, #370040);
 }
 
+table, th, td {
+    border: 1px solid white;
+    border-spacing: 3px;
+}
+
+td {
+    padding: 3px;
+}
+
+
