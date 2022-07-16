@@ -34,7 +34,7 @@ body {
 }
 
 #blackground {
-    height:850px;
+    height:auto;
     width:auto;
     background-color:black;
 }
