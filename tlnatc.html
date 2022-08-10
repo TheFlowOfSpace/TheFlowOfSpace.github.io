@@ -25,11 +25,23 @@
         </div>
         <div id="blackgroundtlnatc">
             <img id="tlnatcheader" alt="TLNAtC Header" src="https://i.imgur.com/5zz2TDj.png">
-            <img id="centertag" alt="Kickstarter" src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=f00262bade8a51249b7d63c8f76ce47f">
-            <div id="annotation">
-                (COMING SOON!)
+            <div id="tlnatcparagraph">
+                Our Kickstarter is planned to be launched on October 1st, 2022! 
             </div>
-            <div style='margin-top:50px'></div>
+            <div id="tlnatcparagraph">
+                Click this banner to be taken to our page and be notified when the project goes live!
+            </div>
+            <div style="margin-top:10px"></div>
+            <img id="centertag" alt="Kickstarter" src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=f00262bade8a51249b7d63c8f76ce47f">
+            <div id="tlnatcparagraph">
+                <p id="demo"></p>
+            </div>
+            <div>
+                <img id="centertag2" alt="Kickstarter" src="https://i.imgur.com/ksIQg5W.png">
+            </div>
+            <div style="margin-top:40px"></div>
+                <img src="https://i.imgur.com/BdnixqN.png" style="width:800px;max-width:95vw;margin-left:auto;margin-right:auto;display:block;">
+            <div style="margin-top:45px"></div>
             <h1 style="text-align:center;">WELCOME TO CHORUS</h1>
             <div id="tlnatcparagraph">
                 The Lord Navigator's Almanac to Chorus is a campaign sourcebook for the 5th Edition of the world's greatest roleplaying game. Within this book, you will find new classes, subclasses, races, subraces, magic items, monsters, and more, all built within and for the post-post-apocalyptic setting of Chorus, also outlined within the book, but fit for use in any campaign.
@@ -69,7 +81,8 @@
                         <div style="margin-top:30px"></div>
                         <img id="iconlarge" src="https://i.imgur.com/J1uFKn3.png">
                         <div style="margin-top:15px"></div>
-                        <p>This book also includes four subclasses for the Augur:</p>
+                        This book also includes four subclasses for the Augur:
+                        <div style="margin-top:0px"></div>
                         Deep Attunement, Unholy Attunement, Moral Attunement, and Fey Attunement.
                     </div>
                     <div id="desccontent1">
@@ -79,12 +92,14 @@
                         <div style="margin-top:30px"></div>
                         <img id="iconlarge" src="https://i.imgur.com/4aaUvdJ.png">
                         <div style="margin-top:15px"></div>
-                        <p>This book also includes four subclasses for the Knight:</p>
+                        This book also includes four subclasses for the Knight:
+                        <div style="margin-top:0px"></div>
                         Icon of Hope, Icon of Knowledge, Icon of Solidarity, and Icon of Vengeance.
                     </div>
                 </div>
                 <div style="margin-top:40px"></div>
                 <img src="https://i.imgur.com/BdnixqN.png" style="width:800px;max-width:95vw;margin-left:auto;margin-right:auto;display:block;">
+                <div style="margin-top:45px"></div>
                 <h2>NEW SUBCLASSES</h2>
                 <div style="margin-top:10px"></div>
                 The various disciplines of the realm have found new avenues of garnering renown, many by making use of powers thought to originate from before the creation of the planes...
@@ -283,19 +298,6 @@
                 </div>
             </div>
             <div style="margin-top:100px"></div>
-            <div>
-                <img id="centertag2" alt="Kickstarter" src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=f00262bade8a51249b7d63c8f76ce47f">
-            </div>
-            <div style="margin-top:50px"></div>
-            <div>
-                <img id="centertag2" alt="Kickstarter" src="https://i.imgur.com/ksIQg5W.png">
-            </div>
-            <div id="tlnatcparagraph" style="font-size:30px;">
-                <div style="margin-top:50px"></div>
-                Kickstarter coming soon...!
-                <div style="margin-top:25px"></div>
-                Follow my twitter for more updates!
-            </div>
             <div style="margin-top:30px"></div>
             <div class="bruteforce">
                 <a class="twitter-timeline" data-lang="en" data-width="100%" data-height="600" data-theme="dark" href="https://twitter.com/TheFlowofSpace?ref_src=twsrc%5Etfw">Tweets by TheFlowofSpace</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -313,6 +315,36 @@
                 <img id="minimoon" alt="moonmoon" src="https://i.imgur.com/GVjGkA8.png">
             </a>
         </div>
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Oct 1, 2022 12:00:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+    
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+    
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+                // Output the result in an element with id="demo"
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
 
     </body>
 </html>
