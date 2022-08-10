@@ -325,8 +325,14 @@ td {
 
 p {
     text-align: center;
-    font-size:60px;
+    font-size:35px;
     margin-top: 0px;
 }
 
-
+#timerbox {
+    text-align:center;
+    margin:auto;
+    width:1200px;
+    max-width:95vw;
+    color:white;
+}
