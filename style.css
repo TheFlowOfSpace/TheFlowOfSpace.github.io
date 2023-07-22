@@ -101,6 +101,13 @@
    border-radius:25px;
  }
 
+ .cardimg {
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+  width:100%
+}
+
  .cardK {
   padding: 20px;
   margin-top: 20px;
@@ -167,6 +174,10 @@
 
     .cardK {
       height:50vw;
+    }
+
+    .cardimg {
+      width:120%;
     }
   }
 
